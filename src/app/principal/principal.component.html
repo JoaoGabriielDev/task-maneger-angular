@@ -23,12 +23,26 @@
           </div>
       </div>
   </div>
+
   <h2>Lista de Tarefas</h2>
+
+  <form>
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Descrição"     name="descricao"    >
+      <input type="text" class="form-control" placeholder="Status"    name="status"   >
+    </div>
+
+    <input type="button" value="Adicione uma nova Tarefa"  class="btn btn-primary"   >
+    <input type="button" value="Alterar"   class="btn btn-warning"                >
+    <input type="button" value="Remover"  class="btn btn-danger"                 >
+    <input type="button" value="Cancelar"  class="btn btn-secondary"            >
+  </form>
+
   <div class="container-table">
     <table class="table">
       <thead>
         <tr>
-          <th>ID</th>
+          <th></th>
           <th>Descrição</th>
           <th>Status</th>
         </tr>
